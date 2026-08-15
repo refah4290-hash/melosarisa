@@ -1,0 +1,34 @@
+# Node.js (sadece local development için)
+node_modules/
+package.json
+package-lock.json
+server.js
+
+# Environment variables
+.env
+.env.example
+
+# Log files
+downloads.log
+*.log
+
+# PHP files (Cloudflare Pages'de gerekli değil)
+log.php
+
+# Dokümantasyon
+README.md
+DEPLOY.md
+LOGGING_README.md
+CLOUDFLARE_DEPLOY.md
+DEPLOYMENT_CHECKLIST.md
+
+# Admin panel (sadece localhost için)
+admin-logs.html
+
+# IDE
+.vscode/
+.idea/
+
+# Diğer
+.DS_Store
+Thumbs.db
