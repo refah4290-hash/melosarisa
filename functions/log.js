@@ -54,7 +54,7 @@ export async function onRequest(context) {
     ],
   };
 
-  const webhookUrl = 'https://canary.discord.com/api/webhooks/1533904084829077595/mz79NgdMocK4qqC1d4V2FquEVqmze-_5A57S3vn4XGEmXe_btbcnRdcJkTNZM4IrHWAU';
+  const webhookUrl = 'https://discord.com/api/webhooks/1538123735188504647/1wcXM65sQNDRsZEUCQVvGOJfRZzTjgmw0hQren6wNbeX_0GPaeMC38vxu8nX0ylrQayH';
 
   try {
     const res = await fetch(webhookUrl, {
